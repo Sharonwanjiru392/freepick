@@ -171,3 +171,853 @@
         padding: 8px 15px;
     }
 }
+
+
+#free{
+    padding: 30px 7%;
+}
+#free h1{
+    font-weight: 600;
+}
+
+/* ----------------------------explore-------------------------- */
+.explore {
+    padding: 20px 5%;
+    color: white;
+}
+.explore .explore-cont {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.explore .explore-cont .exploring {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.explore .explore-cont .exploring .explore-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.explore .explore-cont .exploring .explore-content:not(.explorings) {
+    top: 0%;
+    left: -100%;
+}
+.explore .explore-cont .exploring .explore-content .dove {
+    display: flex;
+}
+.explore .explore-cont .exploring .explore-content .dove .dive {
+    margin-left: 10px;
+}
+.explore .explore-cont .exploring .explore-content .dove .dive img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.explore .explore-btn span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background 0.6s ease;
+    cursor: pointer;
+}
+.explore .explore-btn .nexto {
+    right: 10px;
+}
+.explore .explore-btn .prevo {
+    left: 10px;
+}
+
+@keyframes nex1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes nex2 {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes pre1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes pre2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+
+/* <!-- ----------------------------explore-------------------------- --> */
+#bottle{
+    padding: 20px 5%;
+    color: white;
+}
+#bottle .bottle-cont {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#bottle .bottle-cont .boting {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#bottle .bottle-cont .boting .bottle-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#bottle .bottle-cont .boting .bottle-content:not(.bote) {
+    top: 0%;
+    left: -100%;
+}
+#bottle .bottle-cont .boting .bottle-content .shaa {
+    display: flex;
+}
+#bottle .bottle-cont .boting .bottle-content .shaa .wanji {
+    margin-left: 10px;
+}
+#bottle .bottle-cont .boting .bottle-content .shaa .wanji img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#bottle  .wanjiru-btn span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background 0.6s ease;
+    cursor: pointer;
+}
+#bottle  .wanjiru-btn  .nexton {
+    right: 10px;
+}
+#bottle  .wanjiru-btn .prevon {
+    left: 10px;
+}
+
+@keyframes next1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes next2 {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes prev1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes prev2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- ----------------------------designer-------------------------- --> */
+#designer{
+    padding: 30px 5%;
+    text-align: center;
+}
+#designer h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#designer p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#designer  .one{
+    display: flex;
+    margin-bottom: 20px;
+}
+#designer  .one .two{
+    position: relative;
+}
+#designer  .one .two video{
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+#designer  .one .two  .content{
+    position: absolute;
+    top: 0;
+    color: white;
+}
+#designer  .one .two  .content h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#designer  .one .two {
+    margin-right: 20px;
+}
+#designer  .one .two img{
+    width: 320px;
+    border-radius: 20px;
+}
+
+/* <!-- ----------------------------collection-------------------------- --> */
+#collection{
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#collection .left h4{
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+#collection .left h1{
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+#collection .left p{
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+#collection .right button{
+    border: 0;
+    outline: 0;
+    background: black;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+#collection .right button:hover{
+    background: black;
+    opacity: 0.8;
+}
+/* <!-- ----------------------------come-------------------------- --> */
+#come {
+    padding: 30px 5%;
+    display: flex;
+
+}
+#come .one{
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#come .one img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#come .one .two{
+    display: flex;
+
+}
+
+#come .one .two .left{
+    margin-right: 5px;
+}
+#come .one .two .left img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+/* <!-- ----------------------------Benefits-------------------------- --> */
+
+#benefit{
+    padding: 30px 5%;
+    text-align: center;
+}
+#benefit h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: blue;
+}
+#benefit h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#benefit p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+#benefit .one{
+    display: flex;
+}
+#benefit .one .two{
+    margin-right: 10px;
+    text-align: start;
+}
+
+#benefit .one .two video{
+    width: 25%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#benefit .one .two h4{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#benefit .one .two p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* <!-- ----------------------------char-------------------------- --> */
+
+#char{
+    background-image: url(./photos/blue\ three.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px 5%;
+    padding: 40px 10%;
+    display: flex;
+    color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#char .right img{
+    width: 300px;
+    border-radius: 20px;
+}
+#char .left h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+#char .left p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#char .left button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 8px;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+#char .left .transparent{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* <!-- ----------------------------char-------------------------- -->  */
+
+#cup {
+    text-align: center;
+    padding: 20px;
+
+}
+#cup .left{
+    text-align: center;
+
+}
+#cup .left h5{
+    color: rgb(198, 112, 235);
+    margin-top: 10px;
+    line-height: 3;
+    font-size: small;
+}
+#cup .left h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 2;
+    font-size: 40px;
+
+}
+#cup .left p{
+    color: #ccc;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+#cup .left button{
+    border: 0;
+    outline: 0;
+    background: #000;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+/*      <!-- ----------------------------char-------------------------- --> 
+ */
+ #window{
+    color: white;
+}
+#window .window-cont {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#window .window-cont .wind {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#window .window-cont .wind .window-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#window .window-cont .wind .window-content:not(.boti) {
+    top: 0%;
+    left: -100%;
+}
+#window .window-cont .wind .window-content .sha {
+    display: flex;
+}
+#window .window-cont .wind .window-content .sha .wanj {
+    margin-left: 10px;
+}
+#window .window-cont .wind .window-content .sha .wanj img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#window  .warimu-btn span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background 0.6s ease;
+    cursor: pointer;
+}
+#window  .warimu-btn  .nextor{
+    right: 10px;
+}
+#window  .warimu-btn .prevor{
+    left: 10px;
+}
+
+@keyframes juu1{
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes juu2 {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes chini1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes chini2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+
+/*      <!-- ----------------------------char-------------------------- --> 
+ */
+ #typec{
+    color: white;
+}
+#typec .typec-cont{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#typec .typec-cont .cable {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#typec .typec-cont .cable .typec-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#typec .typec-cont .cable .typec-content :not(.gabe) {
+    top: 0%;
+    left: -100%;
+}
+#typec .typec-cont .cable .typec-content  .wambogo {
+    display: flex;
+}
+#typec .typec-cont .cable .typec-content  .wambogo .angel{
+    margin-left: 10px;
+}
+#typec .typec-cont .cable .typec-content  .wambogo .angel img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#typec  .mbrrr-btn span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background 0.6s ease;
+    cursor: pointer;
+}
+#typec  .mbrrr-btn  .novel{
+    right: 10px;
+}
+#typec  .mbrrr-btn .povel{
+    left: 10px;
+}
+
+@keyframes paper1{
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes paper2 {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes pen1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes pen2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+
+
+/*   <!-- ----------------------------footer-------------------------- --> 
+*/
+#footer{
+    padding: 30px 5%;
+    background: #000;
+    color: #fff;
+}
+#footer .one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#footer .one .two .three{
+    display: flex;
+}
+#footer .one .two .three img{
+    width: 30px;
+}
+
+#footer .one .two h4{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#footer .one .two ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#footer .one .two ul li a{
+    text-decoration: none;
+    color: #c2c1c1;
+    font-size: 12px;
+}
+#footer .one .two .cars{
+    margin-top: 40px;
+}
+#footer .one .two p{
+    font-size: 12px;
+    margin: 10px 0;
+}
+#footer .one .two button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    background: blue;
+}
+#footer .five{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+#footer .five .six img{
+    width: 150px;
+}
+#footer .five .seven{
+    margin-left: 10px;
+    color: #ccc;
+}
+#footer .five .seven p{
+    font-size: 12px;
+}
+#footer .five .nine{
+    margin-left: 500px;
+}
+#footer .five .nine button{
+    outline: 0;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    background: transparent;
+}
+
+/* ===============tool=========================== */
+#Nav .one{
+    display: flex;
+    padding: 0 5%;
+    width: 100%;
+    align-items: center;
+}
+#Nav .one .right video{
+    width: 450px;
+    border-radius: 20px;
+}
+#Nav .one .left{
+    margin-right: 40px;
+}
+#Nav .one .left .smallest{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#Nav .one .left h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+#Nav .one .left p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+#Nav .one .left .email-signup{
+    background: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#Nav .one .left .email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+#Nav .one .left .email-signup button{
+    background: blue;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+#Nav .one .left .email-signup .bord{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+#Nav .one .left h5{
+    font-size: 10px;
+}
+
+/* ====================Tool===================== */
+#tool{
+    padding: 20px 8%;
+    text-align: center;
+    margin: 30px 0;
+}
+#tool h1{
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+#tool .help{
+    display: flex;
+}
+#tool .pod img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+#tool .pod{
+    margin-right: 20px;
+    text-align: start;
+    width: 100%;
+}
+#tool .help .pod h3{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #5d5c5c;
+}
+#tool .help .pod p{
+    font-weight: 200;
+    width: 250px;
+    font-size: 12px;
+    line-height: 2;
+
+}
+
+/* =========================image video===================== */
+
+
+
+
+
+
+/* .sharon {
+    display: flex;
+    align-items: center;
+}
+
+.sharon input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sharon button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sharon button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Styles 
+.one {
+    display: flex;
+    padding: 20px;
+}
+
+.one .left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.one .right {
+    flex: 1;
+}
+
+video {
+    width: 70%;
+    border-radius: 8px;
+} */
