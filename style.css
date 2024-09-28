@@ -972,7 +972,51 @@
 
 /* =========================image video===================== */
 
+/* #video .features {
+    padding: 50px 12%;
+    font-size: 22px;
+    
+}
 
+#video .young .one img{
+    width: 40%;
+    height: auto;
+    border-radius: 0;
+} */
+
+/* .features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.ved-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+} */
 
 
 
@@ -1021,3 +1065,250 @@ video {
     width: 70%;
     border-radius: 8px;
 } */
+
+#video {
+    padding: 20px;
+}
+
+.features {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.text-col {
+    flex: 1;
+    padding: 20px;
+}
+
+/* .img-col, .ved-col {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .img-col img, .ved-col video {
+    max-width: 100%;
+    border-radius: 8px;
+} */
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    /* color: #666; */
+    line-height: 1.6;
+}
+
+.text-col button{
+    background: #39373758;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* .text-col button:hover {
+} */
+.img-col video{
+    flex: 1;
+    width: 500px;
+
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+#Created{
+    padding: 30px 5%;
+    text-align: center;
+}
+#Created h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#Created p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#Created  .one{
+    display: flex;
+    margin-bottom: 20px;
+}
+#Created  .one .two{
+    position: relative;
+}
+
+#Created  .one .two  .content{
+    position: absolute;
+    top: 0;
+    color: white;
+}
+#Created .one .two  .content h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#Created  .one .two {
+    margin-right: 20px;
+}
+#Created  .one .two img{
+    width: 320px;
+    border-radius: 20px;
+}
+
+/* ==================================overlay================== */
+
+#Overlay{
+    display: flex;
+}
+
+#Overlay .one{
+    position: relative;
+    display: flex;
+}
+ .container {
+    position: relative;
+    width: 50%;
+    max-width: 900px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlay button{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    outline: 2px solid #fff;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+  .lay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .lay button{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    outline: 2px solid #fff;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .lay {
+    opacity: 1;
+  }
+
+  /* <!-- ---------------------------------------how it works---------------------------------- --> */
+
+  #how{
+    background: #f1faff;
+    padding: 40px 5%;
+    display: flex;
+    align-items: center;
+}
+#how  h1{
+    color: #54595f;
+    font-size: 40px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    padding: 40px 5%;
+}
+#how .left h2{
+    color: #54595f;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#how .left h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#how .left p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 2.0;
+}
+#how .right img{
+    width: 100%;
+}
+.works button{
+    background: #39373758;
+    border: 0;
+    outline: 0;
+    margin: 20px 40%;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
