@@ -608,7 +608,7 @@ section.categories{
 }
 .categories-contents .category-item:hover{
 	box-shadow: 0px 0px 10px rgba(32, 130, 69, 0.2);
-	transform: translateY(-3px);
+	transform: translateY(-4px);
 }
 .category-item .category-icon{
 	width: 50px;

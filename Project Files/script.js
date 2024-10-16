@@ -9,7 +9,7 @@ menuBtn.addEventListener('click', function(){
 	menuBtn.classList.toggle('active');
 	menuList.classList.toggle('active');
 });
-
+//class from both menuBtn and menuList, closing the menu.
 for(var i = 0; i < menuListItems.length; i++){
 	menuListItems[i].addEventListener('click', menuItemClicked);
 }
@@ -32,10 +32,11 @@ function pageScrollFunction(){
 }
 // Home Section Ends
 
+//This section uses the Owl Carousel plugin to create a slider for the "Partners" section.
 // Partners Section Starts 
 $('.partners-slider').owlCarousel({
-    loop:true,
-    autoplay:true,
+    loop:true, //This allows the slider to loop infinitely.
+    autoplay:true, //Enables automatic sliding.
     autoplayTimeout:3000,
     margin:10,
     nav:true,
@@ -59,6 +60,8 @@ $('.partners-slider').owlCarousel({
 // Partners Section Ends 
 
 // Testimonials Section Starts
+
+//Owl Carousel is a jQuery plugin that allows you to create responsive and customizable carousel sliders for images, testimonials, or any other HTML content.
 $('.testimonials-slider').owlCarousel({
     loop:true,
     autoplay:true,
